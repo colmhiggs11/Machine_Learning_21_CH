@@ -22,3 +22,7 @@ You can view the Static Jupyter Notebook at the following link: [![nbviewer](htt
 
 You can view the Dynamic Jupyter Notebook at the following link:
 [![Binder](https://mybinder.org/badge_logo.svg)]([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/colmhiggs11/Machine_Learning_21_CH/HEAD))
+
+
+
+https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
