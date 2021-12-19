@@ -114,9 +114,12 @@ The libraries and packages that need to be installed for running this code are s
 
 ## 3. Scikit Learn
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/colmhiggs11/Machine_Learning_21_CH/blob/main/Scikit-Learn.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)]([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/colmhiggs11/Machine_Learning_21_CH/HEAD))
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/colmhiggs11/Machine_Learning_21_CH/HEAD)
 
-The Scikit-Learn notebook as mentioned above can be cloned and opened up through Jupyter Lab & python users. For users that do not have access to python/jupyter lab a rendered view can be found by clicking on the nbviewer badge. A rendered version can be access and launched by clicking on the binder badge. This notebook analyses the SciKit learn and three algorithms that are used in machine learning. We follow the steps lined out in the machine learning process flow below.
+
+
+
+The Scikit-Learn notebook as mentioned above can be cloned and opened up through Jupyter Lab & python users. For users that do not have access to python/jupyter lab a rendered view can be found by clicking on the nbviewer badge. A rendered version can be access and launched by clicking on the binder badge and selecting the SciKit Learn jupyter notebook. This notebook analyses the SciKit learn and three algorithms that are used in machine learning. We follow the steps lined out in the machine learning process flow below.
 
 <div align="center">
 
@@ -136,9 +139,9 @@ We run through the steps and end up with a confusion matrix and accuracy score f
 ## 4. Scipy Stats
 
  [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/colmhiggs11/Machine_Learning_21_CH/blob/main/Scipy_Stats.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)]([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/colmhiggs11/Machine_Learning_21_CH/HEAD))
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/colmhiggs11/Machine_Learning_21_CH/HEAD)
 
-The SciPy Stats notebook as mentioned above can be cloned and opened up through Jupyter Lab & python users. For users that do not have access to python/jupyter lab a rendered view can be found by clicking on the nbviewer badge. A version can be access and launched by clicking on the binder badge. This notebook analyses the SciPy stats module focusing mainly on the ANOVA statistical test. The test follows the assumptions below and the data must pass each of the assumptions to complete the ANOVA f_oneway otherwise it will take a different path which is the Welch's ANOVA.  
+The SciPy Stats notebook as mentioned above can be cloned and opened up through Jupyter Lab & python users. For users that do not have access to python/jupyter lab a rendered view can be found by clicking on the nbviewer badge. A version can be access and launched by clicking on the binder badge and selecting the Scipy Stats jupyter notebook. This notebook analyses the SciPy stats module focusing mainly on the ANOVA statistical test. The test follows the assumptions below and the data must pass each of the assumptions to complete the ANOVA f_oneway otherwise it will take a different path which is the Welch's ANOVA.  
 
 <div align="center">
 
@@ -150,11 +153,14 @@ The p-value determines whether most of the assumptions are passed. Typically thi
 
 The idea behind the ANOVA test is to see whether the categories are significantly different to each other in terms of the mean values.
 
+---
 
 ## 5. Conclusions
 It is clear why SciKit learn is one of the most frequently used machine learning libraries. In a short number of lines of code the user can make predictions on almost any dataset assuming they have done the prerequisites of data processing, chossing what algorithm best fits the data and tuning hyperparameters. The more data that the machine learning model sees allows it to be constantly updating its training database and perform even more accuratley. 
 
 SciPy stats is very useful in completing statistical analysis of datasets and comparing them to see if there is a significant distance between them. The correlations between these datasets can prove useful when performing subsequent analysis. 
+
+---
 
 ## 6. License
 This project was completed using the [MIT License](https://opensource.org/licenses/MIT). Due to the limited restrictions it puts on reuse, it has a high license compatibility.
