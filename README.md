@@ -117,11 +117,11 @@ The Scikit-Learn notebook as mentioned above can be cloned and opened up through
 <img alt="SciKit" src="https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Images/MLProcess.jpg?raw=true" width="50%">
 
 <div align="left">
-
+We run through the steps and end up with a confusion matrix and accuracy score for the models as shown below. We try to optimise the models using the Hyperparameters associated with each of the algorithms. 
 
 <div align="center">
 
-<img alt="SciKit" src="https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Images/Readme.png?raw=true" width="50%">
+<img alt="SciKit code" src="https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Images/Readme.png?raw=true" width="50%">
 
 <div align="left">
 
@@ -129,171 +129,27 @@ The Scikit-Learn notebook as mentioned above can be cloned and opened up through
 ---
 # 2. Scipy Stats
 
-You can view the Static Jupyter Notebook at the following link: [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/colmhiggs11/Machine_Learning_21_CH/blob/main/Scipy_Stats.ipynb)
-
-You can view the Dynamic Jupyter Notebook at the following link:
+ [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/colmhiggs11/Machine_Learning_21_CH/blob/main/Scipy_Stats.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)]([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/colmhiggs11/Machine_Learning_21_CH/HEAD))
 
-
-https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
-
-## 2. Background R Fisher & Iris Data
-### 2.1 Ronald Fisher
-Sir Ronald Fisher (1890-1962) was a British statistician and 
-
----
-### 2.2 Data Analysis
-Data analysis is a process of analysing a dataset using 
-
-
----
-### 2.3 Iris Dataset
-The Iris Dataset or 
+The SciPy Stats notebook as mentioned above can be cloned and opened up through Jupyter Lab & python users. For users that do not have access to python/jupyter lab a rendered view can be found by clicking on the nbviewer badge. A version can be access and launched by clicking on the binder badge. This notebook analyses the SciPy stats module focusing mainly on the ANOVA statistical test. The test follows the assumptions below and the data must pass each of the assumptions to complete the ANOVA f_oneway otherwise it will take a different path which is the Welch's ANOVA.  
 
 <div align="center">
 
-|![Iris Flower types](https://github.com/colmhiggs11/ProandS_Project/blob/master/Pictures%20for%20README/Flower%202.png?raw=true)|
-|:--:| 
-| *Iris flowers by species & measurements included in Fishers Dataset* |
+<img alt="SciPy Assumptions" src="https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Images/ANOVA.png?raw=true" width="50%">
 
 <div align="left">
 
-The dataset used in this analysis was obtained from [UCI archive](https://archive.ics.uci.edu/ml/datasets/iris). There were two errors which required updating the .csv file.
-    
-    This data differs from the data presented in Fishers article (identified by Steve Chadwick, spchadwick '@' espeedaz.net ).
-    The 35th sample should be: 4.9,3.1,1.5,0.2,"Iris-setosa" where the error is in the fourth feature. The 38th sample:
-    4.9,3.6,1.4,0.1,"Iris-setosa" where the errors are in the second and third features.
+The p-value determines whether most of the assumptions are passed. Typically this decision is based off whether the value is above or below 0.05.
 
+The idea behind the ANOVA test is to see whether the categories are significantly different to each other in terms of the mean values.
 
-## 3. Code for analysis
-
-### 3.1 How it was written
-The analysis of the Iris dataset will be completed
- 
----
-### 3.2 How to run
-To complete the analy
-
----
-### 3.4 What the code does
-The two main file that will provide the outputs for the analysis are *[iris_functs.py](https://github.com/colmhiggs11/ProandS_Project/blob/master/iris_functs.py)* and *[2.analysis.py](https://github.com/colmhiggs11/ProandS_Project/blob/master/2.analysis.py)*.
-
-<div align="center">
-
----
-#### iris_functs.py
-
-<div align="left">
-
----
-
-<div align="center">
-
----
-#### 2.analysis.py
-<div align="left">
-
----
-**Importing Functions and list** - The functions created above were imported and the list assigned to variable heading also imported so that both cold be called for execution. (*Shown below*)
-
-    import iris_functs as ifs
-    from iris_functs import heading,Data
-
-**Calling functions** - Each of the functions were then called. Some required using the list **"heading"** to be passed through as the argument. (*Shown below*)
-
-
-## 4. Analysis of Data
-### 4.1 Summary.txt
-The summary table below shows the output that can be found in the [summary.txt](https://github.com/colmhiggs11/ProandS_Project/blob/master/summary.txt) file using the describe() function that was executed on per species type of Iris flower. The values for each summary metric are discussed below the table.
-
-<div align="center">
-
-  
-
-<div align="left">
-
----
-#### Count
-All values clearly show that measurements were taken on 50 flowers in each of the three species.
-
----
-#### Mean
-Shows the average measurements taken for each of the flower types. 
-|Name | Comment|
-|:--|:--|
-|Sepal-length:|This is the measurement with the least variation across all of the Iris flowers ranging from 5-6.58 cm for with Setosa being the smallest and Virginica the largest.|
-
-
----
-#### Standard Deviation (Std)
-
-<div align="center">
-
-|![Standard deviation table](https://github.com/colmhiggs11/ProandS_Project/blob/master/Pictures/Standard%20Deviation.png?raw=true)|![Probability Density formula](https://github.com/colmhiggs11/ProandS_Project/blob/master/Pictures/Probability%20Density.PNG?raw=true)|
-|:--:|:--:|
-| *Empirical rule distribution*  | *Probability Density formula* |
-
-
-<div align="left">
-
-
-<div align="center">
-
-*Standard deviation by measurement variable*
-
-
-Name | Comment
-:--------------|:--
-|Sepal-length:|In terms of sepal length 99.7% of the data for each of the flowers fall into the following ranges: **Setosa: 3.9 
-
-
-
----
-### 4.2 Histograms
-
-|![hist](https://github.com/colmhiggs11/ProandS_Project/blob/master/Plots/Histogram%20PNG's/sepal-length.png?raw=true)|![hist](https://github.com/colmhiggs11/ProandS_Project/blob/master/Plots/Histogram%20PNG's/sepal-width.png?raw=true)|
-|:--:|:--:|
-| *Sepal Length per Species* |*Sepal Width per Species*|
-
-|![hist](https://github.com/colmhiggs11/ProandS_Project/blob/master/Plots/Histogram%20PNG's/petal-length.png?raw=true)|![hist](https://github.com/colmhiggs11/ProandS_Project/blob/master/Plots/Histogram%20PNG's/petal-width.png?raw=true)|
-|:--:|:--:|
-| *Petal Length per Species* |*Petal Width per Species*|
-
----
-### 4.3 Scatterplots
-
-
----
-### 4.4 Violin Plots
-
-|![Violin Plot of four measurements per species](https://github.com/colmhiggs11/ProandS_Project/blob/master/Plots/Violin%20plot%20of%20variables.png?raw=true)
-|:--:|
-| *Violinplot of four measurement variables per species* |
-
-
-
-
-<div align="left">
-
----
-### 4.5 Correlations
-
-|![Heatmap](https://github.com/colmhiggs11/ProandS_Project/blob/master/Plots/Correlation%20Heatmap.png?raw=true)
-|:--:|
-| *Overall correlation between measurment variables in Iris Dataset* |
-
-
-<div align="left">
 
 ## 5. Summary / Conclusions
 Taking all of the data into account it is clear to see that the setosa flower is linearly separable from the virginica and versicolor flowers. To differentiate between the two latter flowers takes a lot more time and research has shown that with Machine learning programs the probability of being able to determine which species you are dealing with can be completed with a relatively high degree of accuracy. Setosa flowers have a much smaller petal width and petal length than the other two, and while their sepal length is on the smaller side but similar to that of Virginicas and Versicolors, Setosa's sepal width is typically  larger than its rival species. To differentiate between Virginica's and Versicolors you need to look at data and relationships side by side. Although Virginica's typically have a larger petal length and petal width, there is more of a correlation between those two when looking at Versicolors.
 
 ## 6. Licence
 This project was completed using the [MIT License](https://opensource.org/licenses/MIT). Due to the limited restrictions it puts on reuse, it has a high license compatibility.
-
-## 7. References
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- <https://www.markdownguide.org/basic-syntax/#reference-style-links -->
