@@ -118,6 +118,14 @@ The Scikit-Learn notebook as mentioned above can be cloned and opened up through
 
 <div align="left">
 
+
+<div align="center">
+
+<img alt="SciKit" src="https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Images/Readme.png?raw=true" width="50%">
+
+<div align="left">
+
+
 ---
 # 2. Scipy Stats
 
