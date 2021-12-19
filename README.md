@@ -1,22 +1,125 @@
-# Machine_Learning_21_CH
-Repository for Machine Learning module in partial fulfillment of HDIP in Computer Science and Data Analytics - GMIT
+<div id="top"></div>
+
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/colmhiggs11/Machine_Learning_21_CH">
+  
+  </a>
+
+<h1 align="center">SciKit Learn & SciPy analysis </h1>
+
+  <img alt="SciKit" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" width="25%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="SciPy" src="https://nlaongtup.github.io/post/scipy-lammps/featured.png" width="25%">
+</p>
+
+<p align="center">
+     Machine Learning and Statistics project to analyse SciKit Learn and SciPy stats by looking at the built in algorithms and using example dataseets,plots & visualisations  
+    <br />
+    <a href="https://github.com/colmhiggs11/Machine_Learning_21_CH"><strong>Explore the docs in Repository »</strong></a>
+    <br />
+
+</div>
+
+---
+
+<!-- TABLE OF CONTENTS -->
+## Table Of Contents
+
+1. <a href="#about-the-project">About The Project</a>
+    - <a href="#project-description">Project Description</a>
+    - <a href="#in-this-repository">In this repository</a>
+2. <a href="#getting-started">Getting Started</a>
+    - <a href="#prerequisites">Prerequisites</a>
+    - <a href="#installation">Installation</a>
+3. <a href="#scikit-learn">SciKit Learn</a>
+4. <a href="#scipy-stats">SciPy Stats</a>
+5. <a href="#license">License</a>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+***
+### Project Description
+- Scikit - Learn
+    - A clear and concise overview of the scikit-learn Python library. 
+    - Demonstrations of three interesting scikit-learn algorithms.
+- Scipy Stats
+    - A clear and concise overview of the scipy.stats. 
+    - An example hypothesis test using ANOVA. Find a data set on which it is appropriate to use ANOVA, ensure the assumptions underlying ANOVA are met, and then perform and display the results of your ANOVA using scipy.stats.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### In this repository
+
+* [README.md](https://github.com/colmhiggs11/Machine_Learning_21_CH#readme) *(Layout and details of the project)*
+* [Scikit-Learn.ipynb](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Scikit-Learn.ipynb) *(Scikit Learn Jupyter Notebook)*
+    * [MC.csv](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/MC.csv) *(Data File for the analysis of KNN algorithm)*
+    * [data.csv](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/data.csv) *(Data file for analysis in Scikit Learn)*
+* [Scipy_Stats.ipynb](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Scipy_Stats.ipynb)  *(Scipy Stats Jupyter Notebook)*
+    * [StudentPerformance.csv](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/StudentPerformance.csv) *(Data File for ANOVA analysis)*
+
+* **Other items**
+
+    * [Images used](https://github.com/colmhiggs11/Machine_Learning_21_CH/tree/main/Images)
+    * [License](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/LICENSE) *(MIT License)*    
+    * [Requirments.txt](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Requirements.txt)
+    * .gitignore
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Learning outcomes
-* Describe the stochastic nature of real-world measurements.
-* Select an appropriate mathematical model of a real-world problem.
-* Select an appropriate cost function for a given machine learning task.
-* Apply an optimisation technique to the parameters of a model
+
+<!-- GETTING STARTED -->
+## Getting Started
+***
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### **Prerequisites**
+
+The libraries and packages that need to be installed for running this code are shown in requirements.txt, you will also need to either have access to anaconda/python in another form to work on the actual file, access to a web browser where you can work on your own copy of the version using binder. This will not update/save the notebook unless you copy the code down. You can also look at a rendered view of the notebook by clicking the badges in the follwoing links. [Scikit-Learn.ipynb](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Scikit-Learn.ipynb) , [Scipy_Stats.ipynb](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Scipy_Stats.ipynb).
 
 
-# Scikit-Learn
-You can view the Static Jupyter Notebook at the following link: [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/colmhiggs11/Machine_Learning_21_CH/blob/main/Scikit-Learn.ipynb)
+### **Installation**
 
-You can view the Dynamic Jupyter Notebook at the following link:
+1. If you have anaconda installed, go to the command line and complete step 2.
+2. Clone the repo
+   ```sh
+   git clone https://github.com/colmhiggs11/Machine_Learning_21_CH.git
+   ```
+3. Open Jupyter lab
+   ```sh
+   jupyter lab
+   ```
+4. This will open the Jupyter Notebookin the browser. From here ensure all of the items in the requirments.txt file are installed. If any of them are missing or need to be updated use the following command.
+   ```sh
+   pip install-r requirements.txt 
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---
+
+# 1. Scikit-Learn
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/colmhiggs11/Machine_Learning_21_CH/blob/main/Scikit-Learn.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)]([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/colmhiggs11/Machine_Learning_21_CH/HEAD))
 
+The Scikit-Learn notebook as mentioned above can be cloned and opened up through Jupyter Lab & python users. For users that do not have access to python/jupyter lab a rendered view can be found by clicking on the nbviewer badge. A rendered version can be access and launched by clicking on the binder badge. This notebook analyses the SciKit learn and three algorithms that are used in machine learning. We follow the steps lined out in the machine learning process flow below.
 
-# Scipy Stats
+<div align="center">
+
+<img alt="SciKit" src="https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Images/MLProcess.jpg?raw=true" width="50%">
+
+<div align="left">
+
+---
+# 2. Scipy Stats
 
 You can view the Static Jupyter Notebook at the following link: [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/colmhiggs11/Machine_Learning_21_CH/blob/main/Scipy_Stats.ipynb)
 
@@ -26,59 +129,9 @@ You can view the Dynamic Jupyter Notebook at the following link:
 
 https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
 
-
-
-## Information
-This repository contains the files for the project in the Programming and Scripting module 2020. Key files in this repository include the following files which will be explained in more detail below. *(For quick access to the files just click on them below)*
-
-* [README.md](https://github.com/colmhiggs11/ProandS_Project/blob/master/README.md) *(Description and Analysis of the project)*
-* [IRIS.csv](https://github.com/colmhiggs11/ProandS_Project/blob/master/IRIS.csv) *(Data File)*
-* [2.analysis.py](https://github.com/colmhiggs11/ProandS_Project/blob/master/2.analysis.py) *(Program/Script to run functions)*
-* [iris_functs](https://github.com/colmhiggs11/ProandS_Project/blob/master/iris_functs.py) *(Functions of code created to be called in main **2.analysis.py** file )*
-* [Summary.txt](https://github.com/colmhiggs11/ProandS_Project/blob/master/summary.txt) *(Output of summary required for project)*
-* [Plots](https://github.com/colmhiggs11/ProandS_Project/tree/master/Plots) *(Folder containing below outputs)* 
-    * [Histogram Plots](https://github.com/colmhiggs11/ProandS_Project/tree/master/Plots/Histogram%20PNG's) *(PNG files required for project)*
-    * [Scatter Plot](https://github.com/colmhiggs11/ProandS_Project/blob/master/Plots/Scatterplot%20of%20variables.png?raw=true) *(PNG files required for project)*
-    * [Violin Plot](https://github.com/colmhiggs11/ProandS_Project/blob/master/Plots/Violin%20plot%20of%20variables.png?raw=true)
-    * [Correlation Heatmap](https://github.com/colmhiggs11/ProandS_Project/blob/master/Plots/Correlation%20Heatmap.png?raw=true)
-
-* **Other items**
-    * [Project Plan](https://github.com/colmhiggs11/ProandS_Project/tree/master/Project%20Planning) *(Latest revision of the Project Plan - Broken down into sections with completion status)*
-    * [Images used in the README.md](https://github.com/colmhiggs11/ProandS_Project/tree/master/Pictures)
-    * [License](https://github.com/colmhiggs11/ProandS_Project/blob/master/LICENSE) *(MIT License)*
-    * .gitignore
-
-
----
-## 1.  Introduction
-This project is an analysis of the well known Iris dataset for the Introduction to Programming and Scripting module as part fulfilment of the Higher Diploma in Science in Computing (Data Analytics). The project focuses on the widely known Fischer Iris. It requires research and analysis of the dataset and presentation of the findings. The main objective of this analysis is to try and classify the three species of Iris flower by using the four measurements of Sepal width, Sepal length, Petal width and Petal length. The analysis should show if this is possible and will be done in the steps laid out in the README. 
-
----
-### 1.1 README Layout
-#### [Background - Data Analysis / Fisher / IRIS data](#2-background-r-fisher--iris-data)
-*This section will include a description of how an analysis/investigation of a dataset is completed and a brief introduction into Ronald Fisher and a look at some of his work.*
-#### [Code for analysis](#3-Code-for-analysis)
-*This section will discuss the code written to complete the analysis. A list of libraries used, instructions on how to run/download the program and details on what the program actually does will also be included.* 
-#### [Analysis of Data](#4-analysis-of-data)
-*This section will include discussion and analysis of the **outputs** (plots, histograms & summary files)*
-#### [Summary / Conclusions](#5-Summary--Conclusions)
-*This section will summarise the analysis section and give conclusions based on the data presented.*
-
 ## 2. Background R Fisher & Iris Data
 ### 2.1 Ronald Fisher
 Sir Ronald Fisher (1890-1962) was a British statistician and 
-
-<div align="center">
-
-|![Fisher Data Table](https://github.com/colmhiggs11/ProandS_Project/blob/master/Pictures%20for%20README/Fischer%20Data%20Table.PNG?raw=true)|
-|:--:| 
-| *Fishers Iris Dataset -“The use of multiple measurements in taxonomic problems” (Fisher, 1936)* |
-
-|![Fisher Data Table](https://github.com/colmhiggs11/ProandS_Project/blob/master/Pictures/History.png?raw=true)|
-|:--:| 
-| *Fishers Iris Dataset -“The use of multiple measurements in taxonomic problems” (Fisher, 1936)* |
-
-<div align="left">
 
 ---
 ### 2.2 Data Analysis
@@ -233,3 +286,15 @@ This project was completed using the [MIT License](https://opensource.org/licens
 ## 7. References
 
 
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- <https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/colmhiggs11/Machine_Learning_21_CH.svg?style=for-the-badge
+[contributors-url]: https://github.com/colmhiggs11/Machine_Learning_21_CH/graphs/contributors
+[issues-shield]: https://img.shields.io/github/issues/colmhiggs11/Machine_Learning_21_CH.svg?style=for-the-badge
+[issues-url]: https://github.com/colmhiggs11/Machine_Learning_21_CH/issues
+[license-shield]: https://img.shields.io/github/license/colmhiggs11/Machine_Learning_21_CH.svg?style=for-the-badge
+[license-url]: https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=006
+[linkedin-url]: https://linkedin.com/in/colm-higgins-3a776711b
+[product-screenshot]: images/screenshot.png
