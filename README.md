@@ -33,16 +33,16 @@
 <!-- TABLE OF CONTENTS -->
 ## Table Of Contents
 
-1. <a href="#1--about-the-project">About The Project</a>
+1. <a href="#1-about-the-project">About The Project</a>
     - <a href="#project-description">Project Description</a>
     - <a href="#in-this-repository">In this repository</a>
-2. <a href="#getting-started">Getting Started</a>
+2. <a href="#2-getting-started">Getting Started</a>
     - <a href="#prerequisites">Prerequisites</a>
     - <a href="#installation">Installation</a>
-2. <a href="#scikit-learn">Scikit Learn</a>
-4. <a href="#scipy-stats">SciPy Stats</a>
-5. <a href="#conclusions">Conclusions</a>
-6. <a href="#license">License</a>
+3. <a href="#3-scikit-learn">Scikit Learn</a>
+4. <a href="#4-scipy-stats">SciPy Stats</a>
+5. <a href="#5-conclusions">Conclusions</a>
+6. <a href="#6-license">License</a>
 
 <!-- ABOUT THE PROJECT -->
 ## 1. About The Project
@@ -152,8 +152,11 @@ The idea behind the ANOVA test is to see whether the categories are significantl
 
 
 ## 5. Conclusions
+It is clear why SciKit learn is one of the most frequently used machine learning libraries. In a short number of lines of code the user can make predictions on almost any dataset assuming they have done the prerequisites of data processing, chossing what algorithm best fits the data and tuning hyperparameters. The more data that the machine learning model sees allows it to be constantly updating its training database and perform even more accuratley. 
 
-## 6. Licence
+SciPy stats is very useful in completing statistical analysis of datasets and comparing them to see if there is a significant distance between them. The correlations between these datasets can prove useful when performing subsequent analysis. 
+
+## 6. License
 This project was completed using the [MIT License](https://opensource.org/licenses/MIT). Due to the limited restrictions it puts on reuse, it has a high license compatibility.
 
 <!-- MARKDOWN LINKS & IMAGES -->
