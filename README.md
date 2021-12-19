@@ -28,24 +28,25 @@
 
 </div>
 
----
+
 
 <!-- TABLE OF CONTENTS -->
 ## Table Of Contents
 
-1. <a href="#about-the-project">About The Project</a>
+1. <a href="#1--about-the-project">About The Project</a>
     - <a href="#project-description">Project Description</a>
     - <a href="#in-this-repository">In this repository</a>
 2. <a href="#getting-started">Getting Started</a>
     - <a href="#prerequisites">Prerequisites</a>
     - <a href="#installation">Installation</a>
-3. <a href="#scikit-learn">SciKit Learn</a>
+2. <a href="#scikit-learn">Scikit Learn</a>
 4. <a href="#scipy-stats">SciPy Stats</a>
-5. <a href="#license">License</a>
+5. <a href="#conclusions">Conclusions</a>
+6. <a href="#license">License</a>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-***
+## 1. About The Project
+
 ### Project Description
 - Scikit - Learn
     - A clear and concise overview of the scikit-learn Python library. 
@@ -60,24 +61,29 @@
 
 * [README.md](https://github.com/colmhiggs11/Machine_Learning_21_CH#readme) *(Layout and details of the project)*
 * [Scikit-Learn.ipynb](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Scikit-Learn.ipynb) *(Scikit Learn Jupyter Notebook)*
+
+* [Scipy_Stats.ipynb](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Scipy_Stats.ipynb)  *(Scipy Stats Jupyter Notebook)*
+
+
+**Other items**
+* [Data](https://github.com/colmhiggs11/Machine_Learning_21_CH/tree/main/Data)
+    * __SciKit Learn__
     * [MC.csv](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/MC.csv) *(Data File for the analysis of KNN algorithm)*
     * [data.csv](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/data.csv) *(Data file for analysis in Scikit Learn)*
-* [Scipy_Stats.ipynb](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Scipy_Stats.ipynb)  *(Scipy Stats Jupyter Notebook)*
+    * __SciPy Stats__
     * [StudentPerformance.csv](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/StudentPerformance.csv) *(Data File for ANOVA analysis)*
 
-* **Other items**
-
-    * [Images used](https://github.com/colmhiggs11/Machine_Learning_21_CH/tree/main/Images)
-    * [License](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/LICENSE) *(MIT License)*    
-    * [Requirments.txt](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Requirements.txt)
-    * .gitignore
+* [Images used](https://github.com/colmhiggs11/Machine_Learning_21_CH/tree/main/Images)
+* [License](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/LICENSE) *(MIT License)*    
+* [Requirments.txt](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Requirements.txt)
+* .gitignore
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+***
 
 <!-- GETTING STARTED -->
-## Getting Started
-***
+## 2. Getting Started
+
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
@@ -106,7 +112,7 @@ The libraries and packages that need to be installed for running this code are s
 
 ---
 
-# 1. Scikit-Learn
+## 3. Scikit Learn
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/colmhiggs11/Machine_Learning_21_CH/blob/main/Scikit-Learn.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)]([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/colmhiggs11/Machine_Learning_21_CH/HEAD))
 
@@ -127,7 +133,7 @@ We run through the steps and end up with a confusion matrix and accuracy score f
 
 
 ---
-# 2. Scipy Stats
+## 4. Scipy Stats
 
  [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/colmhiggs11/Machine_Learning_21_CH/blob/main/Scipy_Stats.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)]([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/colmhiggs11/Machine_Learning_21_CH/HEAD))
@@ -145,8 +151,7 @@ The p-value determines whether most of the assumptions are passed. Typically thi
 The idea behind the ANOVA test is to see whether the categories are significantly different to each other in terms of the mean values.
 
 
-## 5. Summary / Conclusions
-Taking all of the data into account it is clear to see that the setosa flower is linearly separable from the virginica and versicolor flowers. To differentiate between the two latter flowers takes a lot more time and research has shown that with Machine learning programs the probability of being able to determine which species you are dealing with can be completed with a relatively high degree of accuracy. Setosa flowers have a much smaller petal width and petal length than the other two, and while their sepal length is on the smaller side but similar to that of Virginicas and Versicolors, Setosa's sepal width is typically  larger than its rival species. To differentiate between Virginica's and Versicolors you need to look at data and relationships side by side. Although Virginica's typically have a larger petal length and petal width, there is more of a correlation between those two when looking at Versicolors.
+## 5. Conclusions
 
 ## 6. Licence
 This project was completed using the [MIT License](https://opensource.org/licenses/MIT). Due to the limited restrictions it puts on reuse, it has a high license compatibility.
