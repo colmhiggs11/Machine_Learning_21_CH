@@ -68,10 +68,10 @@
 **Other items**
 * [Data](https://github.com/colmhiggs11/Machine_Learning_21_CH/tree/main/Data)
     * __SciKit Learn__
-    * [MC.csv](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/MC.csv) *(Data File for the analysis of KNN algorithm)*
-    * [data.csv](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/data.csv) *(Data file for analysis in Scikit Learn)*
+    * [MC.csv](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Data/MC.csv) *(Data File for the analysis of KNN algorithm)*
+    * [data.csv](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Data/data.csv) *(Data file for analysis in Scikit Learn)*
     * __SciPy Stats__
-    * [StudentPerformance.csv](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/StudentPerformance.csv) *(Data File for ANOVA analysis)*
+    * [StudentPerformance.csv](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/Data/StudentPerformance.csv) *(Data File for ANOVA analysis)*
 
 * [Images used](https://github.com/colmhiggs11/Machine_Learning_21_CH/tree/main/Images)
 * [License](https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/LICENSE) *(MIT License)*    
@@ -172,7 +172,7 @@ This project was completed using the [MIT License](https://opensource.org/licens
 [issues-shield]: https://img.shields.io/github/issues/colmhiggs11/Machine_Learning_21_CH.svg?style=for-the-badge
 [issues-url]: https://github.com/colmhiggs11/Machine_Learning_21_CH/issues
 [license-shield]: https://img.shields.io/github/license/colmhiggs11/Machine_Learning_21_CH.svg?style=for-the-badge
-[license-url]: https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/master/LICENSE.txt
+[license-url]: https://github.com/colmhiggs11/Machine_Learning_21_CH/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=006
 [linkedin-url]: https://linkedin.com/in/colm-higgins-3a776711b
 [product-screenshot]: images/screenshot.png
