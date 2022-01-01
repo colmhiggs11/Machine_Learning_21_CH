@@ -28,8 +28,6 @@
 
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 ## Table Of Contents
 
@@ -48,10 +46,10 @@
 ## 1. About The Project
 
 ### Project Description
-- Scikit - Learn
+- **Scikit - Learn**
     - A clear and concise overview of the scikit-learn Python library. 
     - Demonstrations of three interesting scikit-learn algorithms.
-- Scipy Stats
+- **Scipy Stats**
     - A clear and concise overview of the scipy.stats. 
     - An example hypothesis test using ANOVA. Find a data set on which it is appropriate to use ANOVA, ensure the assumptions underlying ANOVA are met, and then perform and display the results of your ANOVA using scipy.stats.
 
@@ -84,8 +82,7 @@
 <!-- GETTING STARTED -->
 ## 2. Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This section will outline the steps needed to run the project on the users local PC.
 
 ### **Prerequisites**
 
@@ -99,14 +96,18 @@ The libraries and packages that need to be installed for running this code are s
    ```sh
    git clone https://github.com/colmhiggs11/Machine_Learning_21_CH.git
    ```
-3. Open Jupyter lab
-   ```sh
-   jupyter lab
-   ```
-4. This will open the Jupyter Notebookin the browser. From here ensure all of the items in the requirments.txt file are installed. If any of them are missing or need to be updated use the following command.
+
+4. From here ensure all of the items in the requirments.txt file are installed. If any of them are missing or need to be updated use the following command.
    ```sh
    pip install-r requirements.txt 
    ```
+3. Open Jupyter lab. This will open the Jupyter Notebook in the browser where the notebooks can be edited or executed.
+   ```sh
+   jupyter lab
+   ```
+
+3. The notebooks can also be viewed using the nbviewer/binder links shown in the next section.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
